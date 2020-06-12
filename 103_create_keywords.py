@@ -52,7 +52,7 @@ def isalnum_(s):
 count = 0
 
 stop_words = []
-f = open("data/stop_words.csv", 'r')
+f = open("stop_words.csv", 'r')
 
 reader = csv.reader(f)
 header = next(reader)
